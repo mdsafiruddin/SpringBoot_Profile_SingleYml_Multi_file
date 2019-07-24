@@ -1,0 +1,37 @@
+my:
+  data:
+  message: this is only from default message
+  code: this is only from default code
+  mode: this is only from Default mode
+  
+  
+
+
+
+---
+   
+spring:
+  profiles:
+    active: dev
+my:
+  data:
+    message: this is from DEV message  baby  only
+    code: this is from DEV code only
+    mode: this is from DEV mode only    
+  
+---
+spring:
+  profiles:
+    active: qa
+my:
+  data:
+    message: this is from QA message  buddy only
+    code: this is from QA code only
+    mode: this is from QA mode only    
+    
+    
+    
+    
+    
+    
+ 
